@@ -1,0 +1,11 @@
+venv/
+.DS_Store
+__pycache__/
+*.pyc
+.canary.json
+canary.json
+.coverage
+htmlcov/
+dist/
+*.egg-info/
+*.egg

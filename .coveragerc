@@ -1,0 +1,14 @@
+[run]
+source = canary
+omit = */tests/*, */venv/*
+branch = false
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+show_missing = true
+fail_under = 90
+
+[html]
+directory = htmlcov
